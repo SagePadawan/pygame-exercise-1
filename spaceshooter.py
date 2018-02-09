@@ -78,9 +78,10 @@ def print_text(msg, pos, _font, color = (0,0,0), bgcolor = (255,255,255)):
 #first page
 def showIntro():
 	print_text("WELCOME TO SPACESHOOTER", (40, 100), font1, text_color, BLACK)
-	print_text("PRESS SPACE TO START!", (235, 500), font2, YELLOW, BLACK)
-	print_text("Shoot as many enemy ships as you can", (140, 300), font2, YELLOW)
-	print_text("Press ESC to exit at any time", (400, 750), font3, text_color, BLACK)# these 2 lines display a text for wins in the right top side of screen
+	print_text("PRESS SPACE TO BEGIN!", (245, 500), font2, YELLOW, BLACK)
+	print_text("Shoot as many enemy ships as you can" , (140, 300), font2, YELLOW)
+	print_text("make sure no one escapes!", (215, 350), font2, YELLOW)
+	print_text("Press ESC to exit at any time", (245, 750), font3, text_color, BLACK)# these 2 lines display a text for wins in the right top side of screen
 
 def music_effect(effect):  #function to pull up sound effects
 	wins = 0
